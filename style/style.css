@@ -1,0 +1,15 @@
+.home-img img{
+    border-radius: 50%;
+    height: 22rem;
+    width: 22rem;
+}
+h1{
+    color: purple;
+    font-weight: bold;
+}
+h2{
+    font-size: medium;
+}
+.btn{
+background-color: aqua;
+}
