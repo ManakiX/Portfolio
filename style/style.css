@@ -20,3 +20,13 @@ background-color: aqua;
         margin: 0px 100px;
     }
 }
+.star-widget label{
+    font-size: 40px;
+    color: grey;
+    padding: 10px;
+    float: right;
+}
+.input:not(:checked) ~ label:hover,
+.input:not(:checked) ~ label:hover ~label{
+    color: red;
+}
