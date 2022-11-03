@@ -44,17 +44,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-  }
-  
-  .previous {
-
-    color: black;
-  }
-  
-  .next {
-    color: black;
+  #nav{
+    width: auto;
   }
