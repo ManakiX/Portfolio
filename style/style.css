@@ -12,7 +12,7 @@ h2{
     font-size: medium;
 }
 .btn{
-background-color: aqua;
+background-color:#EF798A;
 }
 
 @media screen and (max-width: 1080px) {
@@ -30,3 +30,31 @@ background-color: aqua;
 .input:not(:checked) ~ label:hover ~label{
     color: red;
 }
+input {
+    box-shadow: 4px 2px 10px 5px grey;
+    background-color: black;
+}
+textarea{
+    box-shadow: 4px 2px 10px 5px grey;
+    background-color: black
+}
+body{
+    /* background-color:rgba(243, 237, 201, 0.782); */
+    background-image: url(https://i.postimg.cc/HskfnDMD/cool-background.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  .previous {
+
+    color: black;
+  }
+  
+  .next {
+    color: black;
+  }
