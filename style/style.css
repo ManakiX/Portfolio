@@ -15,11 +15,11 @@ h2{
 background-color:#EF798A;
 }
 
-@media screen and (max-width: 1080px) {
+/* @media screen and (max-width: 1080px) {
     #nav {
         margin: 0px 100px;
     }
-}
+} */
 .star-widget label{
     font-size: 40px;
     color: grey;
