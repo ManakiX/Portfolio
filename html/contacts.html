@@ -79,18 +79,21 @@
                     </div>
                     <div class="col-7">
                         <div class="contact form">
-                            <form>
+                            <form 
+                            action="https://formspree.io/f/xvoyvygp"
+                            method="POST"
+                            >
                                 <div class="row">
                                     <div class="col-lg-6 mb-4">
-                                        <input type="text" placeholder="Your Name" class="form-control form-control-lg" required>
+                                        <input type="text" id="name" name="message" placeholder="Your Name" class="form-control form-control-lg" name="Name" required>
                                     </div>
                                     <div class="col-lg-6 mb-4">
-                                    <input type="email" placeholder="Your Email" class="form-control form-control-lg border-0" required>
+                                    <input type="email" id="email" name="message" placeholder="Your Email" class="form-control form-control-lg border-0" name="email" required>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12 mb-4">
-                                        <input type="text" placeholder="Subject" class="form-control form-control-lg border-0" required>
+                                        <input type="text" id="subject" name="message" placeholder="Subject" class="form-control form-control-lg border-0" name="subject" required>
                                     </div>
                                 </div>
                                 <!-- <div class="row">
@@ -100,7 +103,7 @@
                                 </div> -->
                                 <div class="row">
                                     <div class="col-lg mb-4">
-                                            <textarea placeholder="Your message" class="form-control form-control-lg border-0" required></textarea>
+                                            <textarea id="message" name="message" placeholder="Your message" class="form-control form-control-lg border-0" name="message" required></textarea>
                                         </div>
                                     </div>
                                 </div>
