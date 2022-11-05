@@ -69,4 +69,8 @@ body{
         left: -100% !important;
     }
 } 
-  
+.rounded-circle {
+    box-sizing: border-box;
+    border: 5px white solid;
+    border-radius: 50%;
+}
