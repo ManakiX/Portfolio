@@ -62,7 +62,7 @@ body{
     transform: scale(1.5);
 }
 
-@media screen  and  (max-width: 300px) {
+@media screen  and  (max-width: 1080px) {
     .dropdown-menu {
         top:100% !important;
         left: -100% !important;
