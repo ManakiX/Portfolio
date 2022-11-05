@@ -44,6 +44,7 @@ body{
     background-image: url(https://i.postimg.cc/HskfnDMD/cool-background.png) ;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
   #nav{
     width: auto;
@@ -60,3 +61,11 @@ body{
 .inner:hover img{
     transform: scale(1.5);
 }
+
+@media screen  and  (max-width: 300px) {
+    .dropdown-menu {
+        top:100% !important;
+        left: -100% !important;
+    }
+}
+    
